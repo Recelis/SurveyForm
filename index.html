@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/survey.css">
+        <title>Favourite McDonald's Burger</title>
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id = "description"></p>
+        <form>
+            <label id = "name-label">* Name:<input id = "name" type = "text" placeholder = "enter your name"/></label>
+            <label id = "email-label">* Email:<input id = "email" type = "email" placeholder = "enter your email"/></label>
+            <label id = "number-label">* Age:<input id = "number" type = "number" placeholder = "enter your age"/></label>
+            <select id = "dropdown">
+                <option value = "Fish o'Fillet">Fish o'Fillet</option>
+                <option value = "Big Mac">Big Mac</option>
+                <option value = "Double Cheeseburger">Double Cheeseburger</option>
+                <option value = "Happy Meal">Happy Meal</option>
+            </select>
+            <fieldset>
+                <legend>Satisfaction Level</legend>
+                <label for = "excellent">Excellent</label>
+                <input type = "radio" value = "Excellent" name = "excellent"/>
+                
+                <label for = "good">Good</label>
+                <input type = "radio" value = "Good" name = "good"/>
+
+                <label for "okay">Okay</label>
+                <input type = "radio" value = "Okay" name = "okay"/>
+
+                <label for "mediocre">Mediocre</label>
+                <input type = "radio" value = "Mediocre" name = "mediocre"/>
+                
+                <label for "bad">Bad</label>
+                <input type = "radio" value = "Bad" name = "bad"/>
+
+                <label for "vile">Vile</label>
+                <input type = "radio" value = "Vile" name = "vile"/>
+            </fieldset>
+            <label> Leave a comment or suggestions
+                <textarea>
+
+                </textarea>
+            </label>
+            <button id = "submit">Submit</button>
+
+            
+        </form>
+    </body>
+</html>
