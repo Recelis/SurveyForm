@@ -39,8 +39,12 @@ body{
 
 }
 
-input{
+label{
     display:block;
+}
+
+input{
+    /* display:block; */
     margin:auto;
 }
 

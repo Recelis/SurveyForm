@@ -16,12 +16,14 @@
             <label id = "name-label">* Name:<input id = "name" type = "text" placeholder = "enter your name" required/></label>
             <label id = "email-label">* Email:<input id = "email" type = "email" placeholder = "enter your email" required/></label>
             <label id = "number-label">* Age:<input id = "number" type = "number" placeholder = "enter your age" step = "1" min = "0" max = "130" required/></label>
-            <select id = "dropdown">
-                <option value = "Fish o'Fillet">Fish o'Fillet</option>
-                <option value = "Big Mac">Big Mac</option>
-                <option value = "Double Cheeseburger">Double Cheeseburger</option>
-                <option value = "Happy Meal">Happy Meal</option>
-            </select>
+            <label id = "favourite">Favourite Burger
+                <select id = "dropdown">
+                    <option value = "Fish o'Fillet">Fish o'Fillet</option>
+                    <option value = "Big Mac">Big Mac</option>
+                    <option value = "Double Cheeseburger">Double Cheeseburger</option>
+                    <option value = "Happy Meal">Happy Meal</option>
+                </select>
+            </label>
             <fieldset>
                 <legend>Satisfaction Level</legend>
                 <label for = "excellent">Excellent</label>
@@ -30,36 +32,42 @@
                 <label for = "good">Good</label>
                 <input type = "radio" id = "good" value = "Good" name = "satisfaction"/>
                 
-                <label for "okay">Okay</label>
+                <label for = "okay">Okay</label>
                 <input type = "radio" id = "okay" value = "Okay" name = "satisfaction" checked/>
 
-                <label for "mediocre">Mediocre</label>
+                <label for = "mediocre">Mediocre</label>
                 <input type = "radio" id = "mediocre" value = "Mediocre" name = "satisfaction"/>
                 
-                <label for "bad">Bad</label>
+                <label for = "bad">Bad</label>
                 <input type = "radio" id = "bad" value = "Bad" name = "satisfaction"/>
                 
-                <label for "vile">Vile</label>
+                <label for = "vile">Vile</label>
                 <input type = "radio" id = "vile" value = "Vile" name = "satisfaction"/>
             </fieldset>
             <h2>Check to receive marketing</h2>
-            <label for "promotions">Promotions</label>  
-            <input type = "checkbox" id = "promotions" value = "promotions" name = "marketing"/>
-            
-            <label for "discounts">Discounts</label>  
-            <input type = "checkbox"  id = "discounts" value = "discounts" name = "marketing"/>
+            <label for = "promotions">Promotions
+                <input type = "checkbox" id = "promotions" value = "promotions" name = "marketing"/>
+            </label>
 
-            <label for "events">Events</label>
-            <input type = "checkbox" id = "events" value = "events" name = "marketing"/>
-            
-            <label for "weekly newspaper">Weekly Newspaper</label>
-            <input type = "checkbox" value = "weekly newspaper" name = "marketing"/>
-            
-            <label for "weekly emails">Weekly Emails</label>
-            <input type = "checkbox" value = "weekly emails" name = "marketing"/>
+            <label for = "discounts">Discounts  
+                <input type = "checkbox"  id = "discounts" value = "discounts" name = "marketing"/>
+            </label>
 
-            <label for "annual reports">Annual Reports</label>
-            <input type = "checkbox" value = "annual reports" name = "marketing"/>
+            <label for = "events">Events
+                <input type = "checkbox" id = "events" value = "events" name = "marketing"/>
+            </label>
+            
+            <label for = "weekly newspaper">Weekly Newspaper
+                <input type = "checkbox" id = "weekly newspaper" value = "weekly newspaper" name = "marketing"/>
+            </label>
+            
+            <label for = "weekly emails">Weekly Emails
+                <input type = "checkbox" id = "weekly emails" value = "weekly emails" name = "marketing"/>
+            </label>
+
+            <label for = "annual reports">Annual Reports
+                <input type = "checkbox" id = "annual reports" value = "annual reports" name = "marketing"/>
+            </label>
             <label id = "comment"> Leave a comment or suggestions
                 <textarea>
 
