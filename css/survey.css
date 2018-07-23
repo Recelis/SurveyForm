@@ -1,4 +1,53 @@
 body{
+    background-color:red;
+}
+
+#survey{
+    width:80%;
+    margin:auto;
+}
+
+#title{
+    color:gold;
+}
+
+#description{
+    color:white;
+}
+
+#survey-form{
+    background-color:white;
+    color:black;
+    padding:30px;
+    border-radius:5px;
+    text-align:center;
+}
+
+#name-label{
 
 }
 
+#email-label{
+
+}
+
+#number-label{
+
+}
+
+#dropdown{
+
+}
+
+input{
+    display:block;
+    margin:auto;
+}
+
+#comment{
+    display:block;
+}
+
+#submit{
+
+}
